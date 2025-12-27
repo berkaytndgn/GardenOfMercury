@@ -1,6 +1,5 @@
 :root {
     --page-background: #231F20;
-    /* Buradan arkaplan rengini degistirebilirsiniz */
 }
 
 body {
@@ -38,7 +37,6 @@ body {
     background: #231F20;
     width: 100%;
     height: auto;
-    /* Let wrapper control height/aspect */
     flex-grow: 1;
 }
 
@@ -83,9 +81,7 @@ body {
     justify-content: space-between;
     width: 100%;
     background-color: var(--page-background);
-    /* Match bg color */
     padding-top: 5px;
-    /* Spacing */
 }
 
 .unity-mobile #unity-footer {
